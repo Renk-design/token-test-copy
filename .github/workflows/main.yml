@@ -1,11 +1,6 @@
 name: Style Dictionary Workflow
 
-run-name: ${{ github.actor }} is building tokens via style dictionary and publishing package
-
-on:
-  push:
-    tags:
-      - v0.**
+on: [push]
 
 jobs:
   release:
