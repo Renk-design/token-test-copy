@@ -33,7 +33,11 @@
         "xxl": {
           "value": "{core.dimension.xl} * {core.dimension.scale}",
           "type": "dimension"
-        }
+        },
+        "3xl": {
+          "value": "{core.dimension.xxl} * {core.dimension.scale}",
+          "type": "dimension"
+        },
       },
       "spacing": {
         "xs": {
